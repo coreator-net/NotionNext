@@ -34,6 +34,7 @@ export default function Footer(props) {
             </a>
           )}
           <BeiAnGongAn />
+          {/* TODO 註解掉 Powered by 
           <span className='no-underline ml-4'>
             Powered by
             <a
@@ -41,7 +42,7 @@ export default function Footer(props) {
               className=' hover:underline'>
               NotionNext {siteConfig('VERSION')}
             </a>
-          </span>
+          </span> */}
         </div>
       </div>
     </footer>
