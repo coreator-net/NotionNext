@@ -28,6 +28,7 @@ module.exports = {
   POST_RECOMMEND_COUNT: process.env.NEXT_PUBLIC_POST_RECOMMEND_COUNT || 6, // 推荐文章数量
   POSTS_PER_PAGE: process.env.NEXT_PUBLIC_POST_PER_PAGE || 12, // post counts per page
   POSTS_SORT_BY: process.env.NEXT_PUBLIC_POST_SORT_BY || 'date', // 排序方式 'date'按时间,'notion'由notion控制
+<<<<<<< HEAD
 
   // 文章过期提醒配置 p.s. 目前此功能暂时只适用于heo主题
   ARTICLE_EXPIRATION_DAYS:
@@ -38,6 +39,8 @@ module.exports = {
   ARTICLE_EXPIRATION_ENABLED:
     process.env.NEXT_PUBLIC_ARTICLE_EXPIRATION_ENABLED || 'false', // 是否启用文章过期提醒
 
+=======
+>>>>>>> e62eedf59 (when post sort by default valut to POSTS_SORT_BY)
   POST_WAITING_TIME_FOR_404:
     process.env.NEXT_PUBLIC_POST_WAITING_TIME_FOR_404 || '8', // 文章加载超时时间，单位秒；超时后跳转到404页面
 
