@@ -41,6 +41,7 @@ const Footer = ({ title }) => {
         </span>
         <br />
         <h1>{title}</h1>
+        {/* TODO 註解掉 Powered by
         <span className='text-xs font-serif  text-gray-500 dark:text-gray-300 '>
           Powered by{' '}
           <a
@@ -49,7 +50,7 @@ const Footer = ({ title }) => {
             NotionNext {siteConfig('VERSION')}
           </a>
           .
-        </span>
+        </span> */}
       </span>
     </footer>
   )

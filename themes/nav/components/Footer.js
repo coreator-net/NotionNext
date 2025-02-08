@@ -25,6 +25,8 @@ const Footer = ({ siteInfo }) => {
         © {`${copyrightDate}`}
       </div>
 
+      {/*
+      TODO 註解掉 Powered by
       <div className='text-xs font-serif py-1'>
         Powered By{' '}
         <a
@@ -32,7 +34,7 @@ const Footer = ({ siteInfo }) => {
           className='underline text-gray-500 dark:text-gray-300'>
           NotionNext {siteConfig('VERSION')}
         </a>
-      </div>
+      </div> */}
 
       {siteConfig('BEI_AN') && (
         <>

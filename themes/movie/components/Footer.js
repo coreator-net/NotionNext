@@ -33,6 +33,7 @@ export const Footer = props => {
             </a>
           )}
           <BeiAnGongAn />
+          {/* TODO 註解掉 Powered by
           <span className='dark:text-gray-200 no-underline ml-4'>
             Powered by
             <a
@@ -40,7 +41,7 @@ export const Footer = props => {
               className=' hover:underline'>
               NotionNext {siteConfig('VERSION')}
             </a>
-          </span>
+          </span> */}
         </div>
       </div>
     </footer>
