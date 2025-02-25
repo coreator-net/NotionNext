@@ -5,7 +5,7 @@ const BLOG = {
   // Important page_id！！！Duplicate Template from  https://tanghh.notion.site/02ab3b8678004aa69e9e415905ef32a5
   NOTION_PAGE_ID:
     process.env.NOTION_PAGE_ID ||
-    '1e2e861b75798091a775d8628d267604',
+    '1788bb9d0a4780799390e5f01b8538e2,en:7c1d570661754c8fbc568e00a01fd70e',
   THEME: process.env.NEXT_PUBLIC_THEME || 'simple', // 当前主题，在themes文件夹下可找到所有支持的主题；主题名称就是文件夹名，例如 example,fukasawa,gitbook,heo,hexo,landing,matery,medium,next,nobelium,plog,simple
   LANG: process.env.NEXT_PUBLIC_LANG || 'zh-CN', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
   SINCE: process.env.NEXT_PUBLIC_SINCE || 2021, // e.g if leave this empty, current year will be used.
@@ -19,8 +19,13 @@ const BLOG = {
   BIO: process.env.NEXT_PUBLIC_BIO || '數位優化工作室', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://rpaitw.com', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, Blog', // 网站关键词 英文逗号隔开
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '數位優化工作室', // 您的昵称 例如 tangly1024
+  BIO: process.env.NEXT_PUBLIC_BIO || '數位優化工作室', // 作者简介
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://rpaitw.com', // 网站地址
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, Blog', // 网站关键词 英文逗号隔开
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXX
+  BEI_AN_LINK: process.env.NEXT_PUBLIC_BEI_AN_LINK || 'https://www.twnic.tw/', // 备案查询链接，如果用了萌备等备案请在这里填写
   BEI_AN_LINK: process.env.NEXT_PUBLIC_BEI_AN_LINK || 'https://www.twnic.tw/', // 备案查询链接，如果用了萌备等备案请在这里填写
 
   // RSS订阅
@@ -64,6 +69,7 @@ const BLOG = {
   // 欢迎语打字效果,Hexo,Matery主题支持, 英文逗号隔开多个欢迎语。
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
+    'Hi，Welcome to my blog,This is my blog,Welcome to my blog',
     'Hi，Welcome to my blog,This is my blog,Welcome to my blog',
 
   // uuid重定向至 slug
