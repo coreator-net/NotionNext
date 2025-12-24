@@ -19,10 +19,6 @@ const BLOG = {
   BIO: process.env.NEXT_PUBLIC_BIO || '數位優化工作室', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://rpaitw.com', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, Blog', // 网站关键词 英文逗号隔开
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '數位優化工作室', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '數位優化工作室', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://rpaitw.com', // 网站地址
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'Notion, Blog', // 网站关键词 英文逗号隔开
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXX
   BEI_AN_LINK: process.env.NEXT_PUBLIC_BEI_AN_LINK || 'https://www.twnic.tw/', // 备案查询链接，如果用了萌备等备案请在这里填写
@@ -69,7 +65,6 @@ const BLOG = {
   // 欢迎语打字效果,Hexo,Matery主题支持, 英文逗号隔开多个欢迎语。
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
-    'Hi，Welcome to my blog,This is my blog,Welcome to my blog',
     'Hi，Welcome to my blog,This is my blog,Welcome to my blog',
 
   // uuid重定向至 slug
