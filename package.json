@@ -102,7 +102,8 @@
     "jest-junit": "^16.0.0"
   },
   "resolutions": {
-    "axios": ">=0.21.1"
+    "axios": ">=0.21.1",
+    "entities": "2.2.0"
   },
   "bugs": {
     "url": "https://github.com/tangly/NotionNext/issues",
